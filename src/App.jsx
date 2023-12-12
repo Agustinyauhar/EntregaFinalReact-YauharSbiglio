@@ -1,15 +1,23 @@
 import './App.css';
-import NavBar from './components/NavBar/NavBar';
-import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import NavBar from './Components/NavBar/NavBar';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 
-function App(){
+function App() {
   return (
     <div className="App">
-      <NavBar />
-      <ItemListContainer className="introduccion" greeting={"Bienvenidos a Strike Zone Boots"} />
+      <BrowserRouter>
+        <NavBar/>
+        <Routes>
+          <Route path='/' element={<ItemListContainer />} />
+          <Route path='/category/:categoryId' element={<ItemDetailContainer />} />
+          <Route path='/item/:itemId' element={<ItemDetailContainer />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
 
-export default App
+export default App;
 

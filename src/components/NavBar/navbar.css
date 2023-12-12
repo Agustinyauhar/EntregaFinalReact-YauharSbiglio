@@ -1,29 +1,36 @@
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-  }
- 
-  .brand-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    padding-left: 1px;
+#nav {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+#nav h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: white;
+}
+
+  .categories {
+  display: flex;
+}
+
+.Option, .ActiveOption {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.Option:hover {
+  background-color: #555;
   }
 
-  .brand-list button {
-    margin-right: 10px;
-    background-color: transparent;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    font-size: 30px;
-  }
-  
-  .cart {
-    margin-left: 20px;
+  .ActiveOption {
+  background-color: #555;
   }
