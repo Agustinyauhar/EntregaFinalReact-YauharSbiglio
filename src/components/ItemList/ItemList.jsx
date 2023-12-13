@@ -3,9 +3,9 @@ import Item from "../Item/Item"
 
 const ItemList = ({products}) => {
     return (
-        <di className="ListGroup"> 
+        <div className="ListGroup"> 
             {products.map(prod => <Item key={prod.id}{...prod}/>)}
-        </di>
+        </div>
         )
 }
 

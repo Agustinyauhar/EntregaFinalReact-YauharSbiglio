@@ -9,9 +9,9 @@ const NavBar = () => {
                 <h3> ZoneStrikeBoots </h3>
             </Link>
             <div className='categories'>
-                <NavLink to="/category/Marcas" className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Nike</NavLink>
-                <NavLink to="/category/Botines" className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Adidas</NavLink>
-                <NavLink to="/category/Zapatillas" className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Botines</NavLink>
+                <NavLink to="/category/Nike" className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Nike</NavLink>
+                <NavLink to="/category/Adidas" className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Adidas</NavLink>
+                <NavLink to="/category/Puma" className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Puma</NavLink>
             </div>
             <CartWidget />
         </nav>
