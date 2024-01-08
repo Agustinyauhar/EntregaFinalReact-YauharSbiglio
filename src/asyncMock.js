@@ -11,10 +11,10 @@ const products =[
             description: "descripcion Botines"
         } ,
         {
-            id: "2" , name: "Botines Adidas" , price: "90.000" , category: "Botines" , img: "/src/components/Item/assets/adidasx.jpg" , stock: 30 , description: "descripcion zapatillas"
+            id: "2" , name: "Botines Adidas" , price: "90.000" , category: "Botines" , img: "/src/components/Item/assets/adidasx.jpg" , stock: 30 , description: "descionpcion Botines"
         } ,
         {
-            id: "3" , name: "Botines Puma" , price: "85.000" , category: "Botines" , img: "/src/components/Item/assets/botinespuma.jpg" , stock: 25 , description: "descripcion zapatillas"
+            id: "3" , name: "Botines Puma" , price: "85.000" , category: "Botines" , img: "/src/components/Item/assets/botinespuma.jpg" , stock: 25 , description: "descripcion Botines"
         } 
     ]
 
